@@ -25,6 +25,15 @@ push @{$c->{"config_attrs"}->{src}->{"/style/images/action_edit.png"}}, ({ src =
 # Deposit
 push @{$c->{"config_attrs"}->{src}->{"/style/images/action_deposit.png"}}, ({ src => "/images/check2-square.svg"}, {alt => "Bootstrap"}, {width => "27"}, {height => "27"}, {class => "m-1", _change_action => "replace" });
 
+# Approve
+push @{$c->{"config_attrs"}->{src}->{"/style/images/action_approve.png"}}, ({ src => "/images/check2-square.svg"}, {alt => "Bootstrap"}, {width => "27"}, {height => "27"}, {class => "m-1", _change_action => "replace" });
+
+# Send Back
+push @{$c->{"config_attrs"}->{src}->{"/style/images/action_bounce.png"}}, ({ src => "/images/x-square.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
+
+# Reject
+push @{$c->{"config_attrs"}->{src}->{"/style/images/action_reject.png"}}, ({ src => "/images/trash.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
+
 # Tick
 push @{$c->{"config_attrs"}->{src}->{"/style/images/checkbox_tick.png"}}, ({ src => "/images/check-square.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-1", _change_action => "replace" });
 push @{$c->{"config_attrs"}->{src}->{"/style/images/checkbox_empty.png"}}, ({ src => "/images/square.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-1", _change_action => "replace" });
