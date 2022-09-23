@@ -23,3 +23,6 @@ Utilizing a recently added feature in EPrints found in `perl_lib/EPrints/XML.pm`
 - Internal pages of EPrints will have a limited bootstrap theme applied to them
 - This can be used as a template for including other css libraries
 - Adding icons to internal pages of EPrints3.4 using the Bootstrap icons library
+
+EPrints 3.4 is supplied by EPrints Services.
+The files contained within this directory are all Copyright 2022 University of Southampton.
