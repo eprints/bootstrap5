@@ -36,7 +36,7 @@ push @{$c->{config_attrs}->{class}->{"ep_columns_title_inner_sort"}}, ({ class =
 #push @{$c->{config_attrs}->{class}->{"ep_columns_alter_inner_row"}}, ({ class => "d-flex flex-row justify-content-around", _change_action => "replace" });
 
 # ep_blister_bar 
-push @{$c->{config_attrs}->{class}->{"ep_blister_bar"}}, ({ class => "mb-3", _change_action => "replace" });
+push @{$c->{config_attrs}->{class}->{"ep_blister_bar"}}, ({ class => "mb-3", _change_action => "add" });
 push @{$c->{config_attrs}->{class}->{"ep_blister_bar_inner"}}, ({ class => "d-flex justify-content-center", _change_action => "replace" });
 push @{$c->{config_attrs}->{class}->{"ep_blister_node"}}, ({ class => "btn btn-light border shadow", _change_action => "replace" });
 push @{$c->{config_attrs}->{class}->{"ep_blister_node_selected"}}, ({ class => "btn btn-primary border shadow", _change_action => "replace" });
@@ -131,5 +131,15 @@ push @{$c->{config_attrs}->{class}->{"ep_form_text"}}, ({ class => "form-control
 
 # descriptions
 push @{$c->{config_attrs}->{role}->{"description"}}, ({ class => "border-bottom mt-0 ps-1" });
+
+# Manage Records Page
+push @{$c->{config_attrs}->{id}->{"ep_datasets_table"}}, ({ class => "table table-hover border shadow table-bordered", _change_action => "replace" });
+push @{$c->{config_attrs}->{class}->{"ep_table_header"}}, ({ class => "p-2 text-end", _change_action => "replace" });
+push @{$c->{config_attrs}->{class}->{"ep_table_data"}}, ({ class => "p-2", _change_action => "replace" });
+
+# Workflow Details
+push @{$c->{config_attrs}->{class}->{"ep_view_details_table"}}, ({ class => "table table-hover border table-bordered", _change_action => "replace" });
+push @{$c->{config_attrs}->{class}->{"ep_title"}}, ({ class => "display-6", _change_action => "add" });
+push @{$c->{config_attrs}->{class}->{"ep_tab_link"}}, ({ class => "rounded-top p-2", _change_action => "add" });
 
 #push @{$c->{config_attrs}->{class}->{""}}, ({ class => "", _change_action => "replace" });
