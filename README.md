@@ -24,5 +24,9 @@ Utilizing a recently added feature in EPrints found in `perl_lib/EPrints/XML.pm`
 - This can be used as a template for including other css libraries
 - Adding icons to internal pages of EPrints3.4 using the Bootstrap icons library
 
-EPrints 3.4 is supplied by EPrints Services.
+
+### Authors:  
+- Edward Oakley, EPrints Services
+
+EPrints 3.4 is supplied by EPrints Services.  
 The files contained within this directory are all Copyright 2022 University of Southampton.

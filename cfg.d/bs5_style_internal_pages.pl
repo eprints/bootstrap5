@@ -1,9 +1,9 @@
 # Bootstrap5 classes
 
 # ep_tm_key_tools
-#push @{$c->{config_attrs}->{class}->{"ep_tm_key_tools"}}, ({ class => "nav py-0", _change_action => "replace" });
-#push @{$c->{config_attrs}->{class}->{"ep_tm_key_tool_item"}}, ({ class => "nav-item", _change_action => "replace" });
-#push @{$c->{config_attrs}->{class}->{"ep_tm_key_tool_item_link"}}, ({ class => "nav-link pl-0 pr-4", _change_action => "replace" });
+push @{$c->{config_attrs}->{class}->{"ep_tm_key_tools"}}, ({ class => "nav py-1", _change_action => "replace" });
+push @{$c->{config_attrs}->{class}->{"ep_tm_key_tools_item"}}, ({ class => "nav-item p-0 align-self-center", _change_action => "replace" });
+push @{$c->{config_attrs}->{class}->{"ep_tm_key_tools_item_link"}}, ({ class => "nav-link p-1 ms-2", _change_action => "replace" });
 #push @{$c->{config_attrs}->{class}->{"ep_tm_key_tool_item_logged_in_as"}}, ({ class => "nav-link pl-0", _change_action => "replace" });
 
 # ep_summary_box
@@ -105,7 +105,7 @@ push @{$c->{config_attrs}->{action}->{"/cgi/search/simple"}}, ({ class => "w-100
 push @{$c->{config_attrs}->{class}->{"ep_form_search_advanced_link"}}, ({ class => " ", _change_action => "replace" });
 
 # ep_search_fields
-push @{$c->{config_attrs}->{class}->{"ep_search_fields"}}, ({ class => "d-table font-weight-bold w-100 table bg-light border card shadow p-3", _change_action => "replace" });
+push @{$c->{config_attrs}->{class}->{"ep_search_fields"}}, ({ class => "d-table font-weight-bold w-100 table border card shadow p-3", _change_action => "replace" });
 
 # ep_search_buttons
 push @{$c->{config_attrs}->{class}->{"ep_search_buttons"}}, ({ class => "d-flex justify-content-center p-3", _change_action => "replace" });
@@ -127,19 +127,22 @@ push @{$c->{config_attrs}->{id}->{"ep_phraseedit_table"}}, ({ class => "bg-light
 push @{$c->{config_attrs}->{class}->{"ep_tm_pagetitle"}}, ({ class => "display-4", _change_action => "replace" });
 
 # ep_form_text
-push @{$c->{config_attrs}->{class}->{"ep_form_text"}}, ({ class => "form-control", _change_action => "replace" });
+push @{$c->{config_attrs}->{class}->{"ep_form_text"}}, ({ class => "form-control d-inline w-75", _change_action => "replace" });
 
 # descriptions
 push @{$c->{config_attrs}->{role}->{"description"}}, ({ class => "border-bottom mt-0 ps-1" });
 
 # Manage Records Page
 push @{$c->{config_attrs}->{id}->{"ep_datasets_table"}}, ({ class => "table table-hover border shadow table-bordered", _change_action => "replace" });
-push @{$c->{config_attrs}->{class}->{"ep_table_header"}}, ({ class => "p-2 text-end", _change_action => "replace" });
+push @{$c->{config_attrs}->{class}->{"ep_table_header"}}, ({ class => "p-2 text-end w-25", _change_action => "replace" });
 push @{$c->{config_attrs}->{class}->{"ep_table_data"}}, ({ class => "p-2", _change_action => "replace" });
 
 # Workflow Details
 push @{$c->{config_attrs}->{class}->{"ep_view_details_table"}}, ({ class => "table table-hover border table-bordered", _change_action => "replace" });
 push @{$c->{config_attrs}->{class}->{"ep_title"}}, ({ class => "display-6", _change_action => "add" });
 push @{$c->{config_attrs}->{class}->{"ep_tab_link"}}, ({ class => "rounded-top p-2", _change_action => "add" });
+
+# Tables
+push @{$c->{config_attrs}->{class}->{"ep_table"}}, ({ class => "table table-bordered", _change_action => "replace" });
 
 #push @{$c->{config_attrs}->{class}->{""}}, ({ class => "", _change_action => "replace" });

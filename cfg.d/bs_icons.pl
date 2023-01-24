@@ -17,7 +17,7 @@ push @{$c->{"config_attrs"}->{src}->{"/style/images/plus.png"}}, ({ src => "/ima
 push @{$c->{"config_attrs"}->{src}->{"/style/images/action_view.png"}}, ({ src => "/images/search.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-1", _change_action => "replace" });
 
 # Remove
-push @{$c->{"config_attrs"}->{src}->{"/style/images/action_remove.png"}}, ({ src => "/images/trash.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
+push @{$c->{"config_attrs"}->{src}->{"/style/images/action_remove.png"}}, ({ src => "/images/x-square.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
 
 # Edit
 push @{$c->{"config_attrs"}->{src}->{"/style/images/action_edit.png"}}, ({ src => "/images/pencil-square.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
@@ -32,7 +32,7 @@ push @{$c->{"config_attrs"}->{src}->{"/style/images/action_approve.png"}}, ({ sr
 push @{$c->{"config_attrs"}->{src}->{"/style/images/action_bounce.png"}}, ({ src => "/images/x-square.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
 
 # Reject
-push @{$c->{"config_attrs"}->{src}->{"/style/images/action_reject.png"}}, ({ src => "/images/trash.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
+push @{$c->{"config_attrs"}->{src}->{"/style/images/action_reject.png"}}, ({ src => "/images/x-square.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
 
 # Tick
 push @{$c->{"config_attrs"}->{src}->{"/style/images/checkbox_tick.png"}}, ({ src => "/images/check-square.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-1", _change_action => "replace" });
