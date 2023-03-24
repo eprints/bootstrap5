@@ -8,7 +8,7 @@
 push @{$c->{"config_attrs"}->{src}->{"/style/images/help.gif"}}, ({ src => "/images/info-square.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-1", _change_action => "replace" });
 
 # Minus
-push @{$c->{"config_attrs"}->{src}->{"/style/images/minus.png"}}, ({ src => "/images/dash-square.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-1", _change_action => "replace" });
+push @{$c->{"config_attrs"}->{src}->{"/style/images/minus.png"}}, ({ src => "/images/dash-square.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-0", _change_action => "replace" });
 
 # Plus
 push @{$c->{"config_attrs"}->{src}->{"/style/images/plus.png"}}, ({ src => "/images/plus-square.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "", _change_action => "replace" });
@@ -29,7 +29,7 @@ push @{$c->{"config_attrs"}->{src}->{"/style/images/action_deposit.png"}}, ({ sr
 push @{$c->{"config_attrs"}->{src}->{"/style/images/action_approve.png"}}, ({ src => "/images/check2-square.svg"}, {alt => "Bootstrap"}, {width => "27"}, {height => "27"}, {class => "m-1", _change_action => "replace" });
 
 # Send Back
-push @{$c->{"config_attrs"}->{src}->{"/style/images/action_bounce.png"}}, ({ src => "/images/x-square.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
+push @{$c->{"config_attrs"}->{src}->{"/style/images/action_bounce.png"}}, ({ src => "/images/arrow-return-left.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
 
 # Reject
 push @{$c->{"config_attrs"}->{src}->{"/style/images/action_reject.png"}}, ({ src => "/images/x-square.svg"}, {alt => "Bootstrap"}, {width => "25"}, {height => "25"}, {class => "m-1", _change_action => "replace" });
@@ -48,7 +48,7 @@ push @{$c->{"config_attrs"}->{src}->{"/style/images/multi_down.png"}}, ({ src =>
 push @{$c->{"config_attrs"}->{src}->{"/style/images/multi_up.png"}}, ({ src => "/images/caret-up-square.svg"}, {alt => "Bootstrap"}, {width => "15"}, {height => "15"}, {class => "m-1", _change_action => "replace" });
 
 # Required
-#push @{$c->{"config_attrs"}->{src}->{"/style/images/required.png"}}, ({ src => "/images/star.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-1", _change_action => "replace" });
+push @{$c->{"config_attrs"}->{src}->{"/style/images/required.png"}}, ({ src => "/images/star-fill.svg"}, {alt => "Bootstrap"}, {width => "14"}, {height => "14"}, {class => "m-1", _change_action => "replace" });
 
 # Help
 push @{$c->{"config_attrs"}->{src}->{"/style/images/help.png"}}, ({ src => "/images/info-square.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-1", _change_action => "replace" });
@@ -61,3 +61,12 @@ push @{$c->{"config_attrs"}->{src}->{"/style/images/action_down.png"}}, ({ src =
 
 push @{$c->{"config_attrs"}->{src}->{"/style/images/"}}, ({ src => "/images/.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-1", _change_action => "replace" });
 push @{$c->{"config_attrs"}->{src}->{"/style/images/"}}, ({ src => "/images/.svg"}, {alt => "Bootstrap"}, {width => "20"}, {height => "20"}, {class => "m-1", _change_action => "replace" });
+
+# Up a level
+push @{$c->{"config_attrs"}->{src}->{"/style/images/multi_up.png"}}, ({ src => "/images/caret-up-square.svg"}, {alt => "Bootstrap"}, {width => "14"}, {height => "14"}, {class => "m-1", _change_action => "replace" });
+
+# required
+#push @{$c->{"config_attrs"}->{src}->{"/style/images/required.png"}}, ({ src => "TEST"}, {alt => "Bootstrap"}, {width => "14"}, {height => "14"}, {class => "m-1", _change_action => "replace" });
+
+# Help
+#push @{$c->{"config_attrs"}->{src}->{"/style/images/help.png"}}, ({ src => "/images/star-fill.svg"}, {alt => "Bootstrap"}, {width => "14"}, {height => "14"}, {class => "m-1", _change_action => "replace" });
