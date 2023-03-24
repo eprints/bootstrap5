@@ -29,4 +29,4 @@ Utilizing a recently added feature in EPrints found in `perl_lib/EPrints/XML.pm`
 - Edward Oakley, EPrints Services
 
 EPrints 3.4 is supplied by EPrints Services.  
-The files contained within this directory are all Copyright 2022 University of Southampton.
+The files contained within this directory are all Copyright 2023 University of Southampton.
